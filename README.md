@@ -2,7 +2,7 @@
 
 Web responsive de una consultora informática ficticia. El catálogo reúne seis áreas de servicio, desde ciberseguridad hasta sistemas de punto de venta.
 
-[Visitar la demo de Invox](https://arnaualemanydev.github.io/invox/)
+[Visitar la demo de Invox](https://arnaualemanydev.github.io/Invox/)
 
 ![Portada de Invox con la navegación, los accesos a servicios y la ilustración de filamentos](docs/portada.png)
 
@@ -28,7 +28,7 @@ npm run build
 npm run preview
 ```
 
-El sitio se sirve bajo `/invox/`. En GitHub, selecciona **Settings → Pages → Source → GitHub Actions**. El flujo incluido publica los cambios de `main`.
+El sitio se sirve bajo `/Invox/`. En GitHub, selecciona **Settings → Pages → Source → GitHub Actions**. El flujo incluido publica los cambios de `main`.
 
 El resultado se genera en `dist/`. En un alojamiento estático, las rutas de la aplicación deben resolverse a `index.html` para permitir accesos directos al catálogo.
 

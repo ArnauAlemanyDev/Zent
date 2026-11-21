@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import path from 'path'
 
 export default defineConfig({
-  base: "/invox/",
+  base: "/Invox/",
   plugins: [react()],
   resolve: {
     alias: {
