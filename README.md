@@ -12,13 +12,8 @@
 
 [![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-b9ef56?style=for-the-badge&labelColor=111613&color=b9ef56)](https://arnaualemanydev.github.io/Invox/)
 [![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-111613?style=for-the-badge&labelColor=111613&color=2a322c)](https://arnaualemanydev.github.io/Invox/servicios)
-[![Ejecutar en local](https://img.shields.io/badge/Ejecutar%20en%20local-111613?style=for-the-badge&labelColor=111613&color=2a322c)](#-ejecutar-el-proyecto)
 
 </div>
-
-<br>
-
-[![Portada de Invox con la navegación, los accesos a servicios y la ilustración de filamentos](docs/portada.png)](https://arnaualemanydev.github.io/Invox/)
 
 <br>
 
@@ -115,30 +110,6 @@ flowchart LR
 
 <br>
 
-## 🚀 Ejecutar el proyecto
-
-Necesitas **Node.js 22** y npm. En la raíz del repositorio:
-
-```sh
-npm ci
-npm run dev
-```
-
-El servidor de desarrollo sirve la web bajo `/Invox/`. Para revisar la compilación de producción:
-
-```sh
-npm run build
-npm run preview
-```
-
-La compilación se genera en `dist/`. En un alojamiento estático, las rutas de la aplicación deben resolverse a `index.html` para permitir accesos directos al catálogo.
-
-### Publicar en GitHub Pages
-
-En el repositorio, entra en **Settings → Pages → Source** y selecciona **GitHub Actions**. El flujo [`pages.yml`](.github/workflows/pages.yml) compila y publica cada cambio de `main`.
-
-<br>
-
 ## Tecnologías
 
 | Tecnología | Para qué se usa aquí |
@@ -164,7 +135,7 @@ Invox/
 │   ├── images/         Logotipos SVG y recursos gráficos WebP
 │   └── guia-soporte.txt   Descarga local de la página Descargas
 ├── scripts/            Resolución de rutas para GitHub Pages
-├── docs/               Portada y banners de este README
+├── docs/               Banners de este README
 └── .github/workflows/  Publicación en GitHub Pages
 ```
 
