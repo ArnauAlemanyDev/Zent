@@ -1,17 +1,6 @@
 <!doctype html>
 <html lang="es"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<script>
-if (location.pathname === "%BASE_URL%") {
-  const hero = document.createElement("link");
-  hero.rel = "preload";
-  hero.as = "image";
-  hero.imageSrcset = "%BASE_URL%images/signal-small.webp 480w, %BASE_URL%images/signal.webp 800w";
-  hero.imageSizes = "(max-width: 639px) 90vw, (max-width: 1023px) 75vw, 480px";
-  hero.fetchPriority = "high";
-  document.head.append(hero);
-}
-</script>
 <meta name="description" content="Proyecto de portfolio de una consultora ficticia de servicios informáticos.">
 <link rel="icon" type="image/svg+xml" href="%BASE_URL%images/mark.svg"><title>Invox</title></head>
 <body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>

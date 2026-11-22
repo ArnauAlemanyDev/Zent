@@ -57,7 +57,7 @@ export default function HeroSection() {
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
-            <img src={`${import.meta.env.BASE_URL}images/signal.webp`} width="1100" height="950" alt="" fetchPriority="high" srcSet={`${import.meta.env.BASE_URL}images/signal-small.webp 480w, ${import.meta.env.BASE_URL}images/signal.webp 800w`} sizes="(max-width: 639px) 90vw, (max-width: 1023px) 75vw, 480px" className="w-full h-auto" />
+            <img src={`${import.meta.env.BASE_URL}images/filamentos.svg`} width="600" height="460" alt="" fetchPriority="high" className="w-full h-auto" />
           </motion.div>
         </div>
       </div>
