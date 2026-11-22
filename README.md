@@ -1,5 +1,7 @@
 <div align="center">
 
+**ES** · [EN](README.en.md)
+
 <a href="https://arnaualemanydev.github.io/Invox/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
