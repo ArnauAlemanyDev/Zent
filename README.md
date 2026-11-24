@@ -2,7 +2,7 @@
 
 **ES** · [EN](README.en.md)
 
-<a href="https://arnaualemanydev.github.io/Invox/">
+<a href="https://arnaualemanydev.github.io/Zent/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
@@ -12,8 +12,8 @@
 
 <br>
 
-[![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Invox/)
-[![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Invox/servicios)
+[![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Zent/)
+[![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Zent/servicios)
 
 </div>
 
@@ -34,29 +34,29 @@ Cada tarjeta lleva directamente a su sección en la demo.
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#ciberseguridad">Ciberseguridad</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#ciberseguridad">Ciberseguridad</a></b><br>
       Protección multidispositivo, auditoría y vulnerabilidades, firewalls y seguridad perimetral.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#infraestructura-cloud">Cloud y redes</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#infraestructura-cloud">Cloud y redes</a></b><br>
       Redes LAN/WAN, servidores físicos y virtuales, migración a la nube, backup y monitorización.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#servicios-gestionados">Servicios gestionados</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#servicios-gestionados">Servicios gestionados</a></b><br>
       Asistencia remota, mantenimiento preventivo, reparación de hardware y soporte presencial.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#sistemas-tpv">Sistemas TPV</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv">Sistemas TPV</a></b><br>
       Punto de venta para hostelería, comercio, peluquería y talleres, con carta digital por QR.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#telecomunicaciones">Telecomunicaciones</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#telecomunicaciones">Telecomunicaciones</a></b><br>
       Fibra, telefonía móvil, packs convergentes y centralitas IP para empresas.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Invox/servicios#equipos-hardware">Equipos y hardware</a></b><br>
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#equipos-hardware">Equipos y hardware</a></b><br>
       Ordenadores, componentes, periféricos, equipamiento de red y software CAD.
     </td>
   </tr>
@@ -70,7 +70,7 @@ Además del catálogo, el sitio incluye **Descargas** (una guía de soporte prop
 
 ### Un catálogo que funciona con ratón, teclado y pantalla táctil
 
-Las seis tarjetas mantienen la misma altura y su resumen se abre de tres formas: al pasar el ratón, al activar **Ver detalles** con teclado o al tocarlo en una pantalla táctil. El botón expone su estado con `aria-expanded`, `Esc` cierra el panel y devuelve el foco al botón. **Ver servicio** lleva a la sección correspondiente y coloca allí el foco, también cuando se abre directamente una URL como [`/servicios#sistemas-tpv`](https://arnaualemanydev.github.io/Invox/servicios#sistemas-tpv).
+Las seis tarjetas mantienen la misma altura y su resumen se abre de tres formas: al pasar el ratón, al activar **Ver detalles** con teclado o al tocarlo en una pantalla táctil. El botón expone su estado con `aria-expanded`, `Esc` cierra el panel y devuelve el foco al botón. **Ver servicio** lleva a la sección correspondiente y coloca allí el foco, también cuando se abre directamente una URL como [`/servicios#sistemas-tpv`](https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv).
 
 📄 Código: [`src/components/ServiceCard.jsx`](src/components/ServiceCard.jsx) y [`src/pages/Services.jsx`](src/pages/Services.jsx)
 
@@ -117,7 +117,7 @@ flowchart LR
 | Tecnología | Para qué se usa aquí |
 | --- | --- |
 | **React 18** y **React Router** | Interfaz por componentes, rutas del sitio y carga diferida de páginas interiores |
-| **Vite** | Servidor de desarrollo y compilación de producción bajo `/Invox/` |
+| **Vite** | Servidor de desarrollo y compilación de producción bajo `/Zent/` |
 | **Tailwind CSS** | Estilos con variables de diseño para la paleta clara y la inversa |
 | **Framer Motion** | Animaciones de entrada y transiciones del indicador de navegación |
 | **Lucide** | Iconografía de servicios, navegación y descargas |
@@ -128,7 +128,7 @@ flowchart LR
 ## Estructura del repositorio
 
 ```text
-Invox/
+Zent/
 ├── src/
 │   ├── pages/          Vistas: Home, Services, Downloads, Contact y legales
 │   ├── components/     Layout, navegación, tarjetas y secciones de Inicio
