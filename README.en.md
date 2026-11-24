@@ -6,22 +6,22 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
-    <img src="docs/banner-dark.svg" alt="Invox: equipment, networks and support. Responsive website for a fictional IT consultancy." width="100%">
+    <img src="docs/banner-dark.svg" alt="Zent: equipment, networks and support. Responsive website for a fictional IT consultancy." width="100%">
   </picture>
 </a>
 
 <br>
 
-[![Live demo](https://img.shields.io/badge/%E2%86%97%20Visit%20the%20demo-b9ef56?style=for-the-badge&labelColor=111613&color=b9ef56)](https://arnaualemanydev.github.io/Invox/)
-[![Service catalogue](https://img.shields.io/badge/Service%20catalogue-111613?style=for-the-badge&labelColor=111613&color=2a322c)](https://arnaualemanydev.github.io/Invox/servicios)
+[![Live demo](https://img.shields.io/badge/%E2%86%97%20Visit%20the%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Invox/)
+[![Service catalogue](https://img.shields.io/badge/Service%20catalogue-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Invox/servicios)
 
 </div>
 
 <br>
 
-## What is Invox
+## What is Zent
 
-Invox is the website of an IT consultancy that does not exist: installation and maintenance of equipment, networks and support for homes, offices and shops. It brings together **six service areas**, from cybersecurity to point-of-sale systems, in a responsive site with a browsable catalogue, a downloads page and a contact page.
+Zent is the website of an IT consultancy that does not exist: installation and maintenance of equipment, networks and support for homes, offices and shops. It brings together **six service areas**, from cybersecurity to point-of-sale systems, in a responsive site with a browsable catalogue, a downloads page and a contact page.
 
 The project started during my DAM work placement as a real website for a company in the sector. To publish it as a portfolio piece I kept the architecture and replaced the corporate identity, contact details, location map and commercial references with demo content. Everything you will see in the demo is fictional. The site itself is written in Spanish.
 
@@ -76,13 +76,13 @@ The six cards keep the same height and their summary opens in three ways: on mou
 
 ### A light first load
 
-The hero illustration is a vector SVG of about 12 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), instead of a raster image: it stays sharp on any screen and weighs very little. Its lines sway slowly through a CSS animation that is switched off with `prefers-reduced-motion`. The home page is part of the entry module so the headline appears on the first render, and the remaining pages load on demand.
+The hero illustration is a vector SVG of about 4 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), instead of a raster image: it stays sharp on any screen and weighs very little. Its lines sway slowly through a CSS animation that is switched off with `prefers-reduced-motion`. The home page is part of the entry module so the headline appears on the first render, and the remaining pages load on demand.
 
 📄 Code: [`src/App.jsx`](src/App.jsx) and [`src/components/HeroSection.jsx`](src/components/HeroSection.jsx)
 
 ### A consistent visual identity
 
-Colours live as HSL variables in [`src/index.css`](src/index.css) and are wired into Tailwind in [`tailwind.config.js`](tailwind.config.js). The header, the hero and the closing call to action use the inverse palette: dark background `#111613`, light text `#f5f6ee` and a lime green `#b9ef56` kept for whatever should catch the eye. The rest of the site works on light surfaces with a deeper green as the main colour. Styles respect `prefers-reduced-motion` and visible focus.
+Colours live as HSL variables in [`src/index.css`](src/index.css) and are wired into Tailwind in [`tailwind.config.js`](tailwind.config.js). The header, the hero and the closing call to action use the inverse palette: ink-blue background `#0c111b`, light text `#eef2f7` and an electric cyan `#4cd9f2` kept for whatever should catch the eye. The rest of the site works on light surfaces with a deep petrol blue as the main colour. The six service illustrations and the logo are SVGs that share the line language of the hero (`public/images/service-*.svg`). Styles respect `prefers-reduced-motion` and visible focus.
 
 ### Routes that survive a reload
 
@@ -134,7 +134,7 @@ Invox/
 │   ├── components/     Layout, navigation, cards and Home sections
 │   └── lib/            Page title hook and 404 view
 ├── public/
-│   ├── images/         SVG logos and WebP graphics
+│   ├── images/         Logo, hero and service illustrations as SVG
 │   └── guia-soporte.txt   Local download on the Downloads page
 ├── scripts/            Route handling for GitHub Pages
 ├── docs/               Banners for this README
@@ -145,6 +145,6 @@ Invox/
 
 <div align="center">
 
-<sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Invox is a fictional brand: contact details, locations and commercial references are for demonstration only.</sub>
+<sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent is a fictional brand: contact details, locations and commercial references are for demonstration only.</sub>
 
 </div>

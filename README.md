@@ -6,22 +6,22 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
-    <img src="docs/banner-dark.svg" alt="Invox: equipos, redes y soporte. Web responsive de una consultora informática ficticia." width="100%">
+    <img src="docs/banner-dark.svg" alt="Zent: equipos, redes y soporte. Web responsive de una consultora informática ficticia." width="100%">
   </picture>
 </a>
 
 <br>
 
-[![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-b9ef56?style=for-the-badge&labelColor=111613&color=b9ef56)](https://arnaualemanydev.github.io/Invox/)
-[![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-111613?style=for-the-badge&labelColor=111613&color=2a322c)](https://arnaualemanydev.github.io/Invox/servicios)
+[![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Invox/)
+[![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Invox/servicios)
 
 </div>
 
 <br>
 
-## Qué es Invox
+## Qué es Zent
 
-Invox es la web de una consultora informática que no existe: instalación y mantenimiento de equipos, redes y soporte para hogares, oficinas y comercios. Reúne **seis áreas de servicio**, desde ciberseguridad hasta sistemas de punto de venta, en un sitio responsive con catálogo navegable, página de descargas y contacto.
+Zent es la web de una consultora informática que no existe: instalación y mantenimiento de equipos, redes y soporte para hogares, oficinas y comercios. Reúne **seis áreas de servicio**, desde ciberseguridad hasta sistemas de punto de venta, en un sitio responsive con catálogo navegable, página de descargas y contacto.
 
 El proyecto nació durante mis prácticas de DAM como web real de una empresa del sector. Para publicarlo como portfolio conservé la arquitectura y sustituí la identidad corporativa, los contactos, el plano de ubicación y las referencias comerciales por contenido de demostración. Todos los datos que verás en la demo son ficticios.
 
@@ -76,13 +76,13 @@ Las seis tarjetas mantienen la misma altura y su resumen se abre de tres formas:
 
 ### Una primera carga ligera
 
-La ilustración del hero es un SVG vectorial de unos 12 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), en lugar de una imagen rasterizada: se ve nítida en cualquier pantalla y apenas pesa. Sus líneas se mecen despacio con una animación CSS que se desactiva con `prefers-reduced-motion`. Inicio forma parte del módulo de entrada para que el titular aparezca desde el primer render, y el resto de páginas se carga bajo demanda.
+La ilustración del hero es un SVG vectorial de unos 4 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), en lugar de una imagen rasterizada: se ve nítida en cualquier pantalla y apenas pesa. Sus líneas se mecen despacio con una animación CSS que se desactiva con `prefers-reduced-motion`. Inicio forma parte del módulo de entrada para que el titular aparezca desde el primer render, y el resto de páginas se carga bajo demanda.
 
 📄 Código: [`src/App.jsx`](src/App.jsx) y [`src/components/HeroSection.jsx`](src/components/HeroSection.jsx)
 
 ### Una identidad visual coherente
 
-Los colores viven como variables HSL en [`src/index.css`](src/index.css) y se conectan con Tailwind en [`tailwind.config.js`](tailwind.config.js). La cabecera, el hero y la llamada a la acción final usan la paleta inversa: fondo oscuro `#111613`, texto claro `#f5f6ee` y un verde lima `#b9ef56` reservado para lo que debe captar la atención. El resto de la web trabaja sobre superficies claras con un verde más profundo como color principal. Los estilos respetan `prefers-reduced-motion` y el foco visible.
+Los colores viven como variables HSL en [`src/index.css`](src/index.css) y se conectan con Tailwind en [`tailwind.config.js`](tailwind.config.js). La cabecera, el hero y la llamada a la acción final usan la paleta inversa: fondo azul tinta `#0c111b`, texto claro `#eef2f7` y un cian eléctrico `#4cd9f2` reservado para lo que debe captar la atención. El resto de la web trabaja sobre superficies claras con un azul petróleo como color principal. Las seis ilustraciones de servicio y el logotipo son SVG que comparten el lenguaje de líneas del hero (`public/images/service-*.svg`). Los estilos respetan `prefers-reduced-motion` y el foco visible.
 
 ### Rutas que sobreviven a la recarga
 
@@ -134,7 +134,7 @@ Invox/
 │   ├── components/     Layout, navegación, tarjetas y secciones de Inicio
 │   └── lib/            Título de página y vista 404
 ├── public/
-│   ├── images/         Logotipos SVG y recursos gráficos WebP
+│   ├── images/         Logotipo, hero e ilustraciones de servicio en SVG
 │   └── guia-soporte.txt   Descarga local de la página Descargas
 ├── scripts/            Resolución de rutas para GitHub Pages
 ├── docs/               Banners de este README
@@ -145,6 +145,6 @@ Invox/
 
 <div align="center">
 
-<sub>Proyecto de portfolio por <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Invox es una marca ficticia: los contactos, ubicaciones y referencias comerciales son de demostración.</sub>
+<sub>Proyecto de portfolio por <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent es una marca ficticia: los contactos, ubicaciones y referencias comerciales son de demostración.</sub>
 
 </div>

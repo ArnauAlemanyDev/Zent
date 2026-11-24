@@ -37,7 +37,7 @@ export default function AboutSection() {
               Tecnología de confianza de proximidad
             </h2>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              En Invox nos dedicamos a la instalación y el mantenimiento de equipos informáticos. Trabajamos con empresas y particulares, desde la configuración de un ordenador hasta la puesta en marcha de una red de oficina.
+              En Zent nos dedicamos a la instalación y el mantenimiento de equipos informáticos. Trabajamos con empresas y particulares, desde la configuración de un ordenador hasta la puesta en marcha de una red de oficina.
             </p>
 
             <div className="mt-10 grid grid-cols-3 gap-4 lg:gap-6">

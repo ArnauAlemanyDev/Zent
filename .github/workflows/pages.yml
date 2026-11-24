@@ -1,4 +1,4 @@
-name: Publicar Invox
+name: Publicar Zent
 on:
   push:
     branches: [main]

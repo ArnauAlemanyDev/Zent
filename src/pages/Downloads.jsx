@@ -7,7 +7,7 @@ const DOWNLOADS = [
     name: "Guía de soporte",
     description: "Una lista breve para documentar una incidencia antes de solicitar ayuda.",
     href: `${import.meta.env.BASE_URL}guia-soporte.txt`,
-    badge: "Invox",
+    badge: "Zent",
     highlight: true,
   },
   {

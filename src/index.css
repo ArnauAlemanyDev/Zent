@@ -6,45 +6,45 @@
 
 @layer base {
   :root {
-    --background: 93 19% 95%;
-    --foreground: 140 11% 10%;
+    /* Paleta Zent: superficies azul tinta, texto grafito y un cian eléctrico de acento */
+    --background: 210 30% 96%;
+    --foreground: 220 32% 9%;
     --card: 0 0% 100%;
-    --card-foreground: 140 11% 10%;
+    --card-foreground: 220 32% 9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 140 11% 10%;
-    --primary: 92 45% 29%;
+    --popover-foreground: 220 32% 9%;
+    --primary: 193 85% 28%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 80 19% 91%;
-    --secondary-foreground: 140 11% 10%;
-    --muted: 80 19% 91%;
-    --muted-foreground: 132 7% 35%;
-    --accent: 80 19% 91%;
-    --accent-foreground: 140 11% 10%;
+    --secondary: 210 28% 91%;
+    --secondary-foreground: 220 32% 9%;
+    --muted: 210 28% 91%;
+    --muted-foreground: 215 14% 34%;
+    --accent: 210 28% 91%;
+    --accent-foreground: 220 32% 9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 91 11% 81%;
-    --input: 91 11% 81%;
-    --ring: 92 45% 29%;
-    --chart-1: 92 45% 29%;
-    --chart-2: 160 84% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --border: 212 20% 82%;
+    --input: 212 20% 82%;
+    --ring: 193 85% 28%;
+    --chart-1: 193 85% 28%;
+    --chart-2: 189 86% 52%;
+    --chart-3: 226 70% 62%;
+    --chart-4: 230 100% 83%;
+    --chart-5: 215 30% 40%;
     --radius: 0.75rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 92 45% 29%;
+    --sidebar-primary: 193 85% 28%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 92 45% 29%;
+    --sidebar-ring: 193 85% 28%;
 
     --font-inter: 'Inter', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
 
-    --surface-ice: 94 15% 91%;
-    --emerald: 160 84% 39%;
+    --surface-ice: 210 26% 92%;
   }
 
 
@@ -72,25 +72,25 @@
 
 
 /* The header, hero and closing call to action use the inverse brand palette. */
-header, .invox-hero, .invox-dark {
-  --background: 144 13% 8%;
-  --foreground: 72 25% 96%;
-  --muted-foreground: 126 6% 76%;
-  --primary: 83 80% 69%;
-  --primary-foreground: 144 13% 8%;
-  --secondary: 138 9% 17%;
-  --border: 132 8% 29%;
+header, .brand-hero, .brand-dark {
+  --background: 219 39% 8%;
+  --foreground: 214 33% 95%;
+  --muted-foreground: 214 18% 76%;
+  --primary: 189 86% 62%;
+  --primary-foreground: 219 39% 8%;
+  --secondary: 219 28% 17%;
+  --border: 218 20% 28%;
 }
-header, .invox-hero { background-color: #111613; color: #f5f6ee; }
-.invox-hero { min-height: min(82vh, 760px); }
-.invox-hero h1 { font-size: clamp(3.3rem, 5.5vw, 5.8rem); letter-spacing: -.07em; font-weight: 650; }
-.invox-hero img { max-height: 490px; object-fit: contain; }
+header, .brand-hero { background-color: #0c111b; color: #eef2f7; }
+.brand-hero { min-height: min(82vh, 760px); }
+.brand-hero h1 { font-size: clamp(3.3rem, 5.5vw, 5.8rem); letter-spacing: -.07em; font-weight: 650; }
+.brand-hero img { max-height: 490px; object-fit: contain; }
 main h2 { letter-spacing: -.045em; }
 main a.rounded-xl, header a.rounded-lg { border-radius: 99px; }
-:focus-visible { outline: 3px solid #729e3a; outline-offset: 3px; }
+:focus-visible { outline: 3px solid #0f86a8; outline-offset: 3px; }
 @media (max-width: 767px) {
-  .invox-hero img { max-height: 295px; }
-  .invox-hero { min-height: auto; }
+  .brand-hero img { max-height: 295px; }
+  .brand-hero { min-height: auto; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
@@ -98,8 +98,8 @@ main a.rounded-xl, header a.rounded-lg { border-radius: 99px; }
 .cta-title span { white-space:nowrap; }
 @media(max-width: 639px) {
   main section.py-24 { padding-block:3.75rem; }
-  main .invox-hero { padding-top:6rem; }
-  main .invox-hero .grid { row-gap:1.5rem; }
+  main .brand-hero { padding-top:6rem; }
+  main .brand-hero .grid { row-gap:1.5rem; }
 }
 @media(min-width: 768px) and (max-width: 1050px) {
   header img { width:108px; }

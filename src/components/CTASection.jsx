@@ -10,8 +10,8 @@ export default function CTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.7 }}
-          className="invox-dark relative text-white rounded-3xl px-5 py-9 sm:p-10 lg:p-12 overflow-hidden"
-          style={{ backgroundColor: "#111613" }}
+          className="brand-dark relative text-white rounded-3xl px-5 py-9 sm:p-10 lg:p-12 overflow-hidden"
+          style={{ backgroundColor: "#0c111b" }}
         >
           {/* Background decoration */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />

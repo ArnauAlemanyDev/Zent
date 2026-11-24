@@ -12,7 +12,7 @@ const NAV_LINKS = [
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#111613" }} className="text-white">
+    <footer style={{ backgroundColor: "#0c111b" }} className="text-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-[8vw]">
 
         <div className="py-16 lg:py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="lg:col-span-1 flex flex-col">
             {/* Logo row — same height as the title rows in other columns */}
             <div className="h-[28px] flex items-center mb-5">
-              <img src={`${import.meta.env.BASE_URL}images/invox-claro.svg`} alt="Invox" width="132" height="29" />
+              <img src={`${import.meta.env.BASE_URL}images/zent-claro.svg`} alt="Zent" width="126" height="29" />
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
               Consultora ficticia de servicios informáticos, telecomunicaciones y soluciones tecnológicas para empresas y particulares.
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div><h4 className="mb-5 text-sm text-white">Contacto de ejemplo</h4>
-            <p className="text-sm text-white/60">hola@invox.example<br />Calle del Prisma, 8 · Villa Prisma</p>
+            <p className="text-sm text-white/60">hola@zent.example<br />Calle del Prisma, 8 · Villa Prisma</p>
           </div>
           <div>
             <div className="h-[28px] flex items-center mb-5">
@@ -77,7 +77,7 @@ export default function Footer() {
         <div className="py-6" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-white/65">
-              © {new Date().getFullYear()} Invox · Proyecto de portfolio
+              © {new Date().getFullYear()} Zent · Proyecto de portfolio
             </p>
             
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">

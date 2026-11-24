@@ -1,4 +1,4 @@
-Invox · Preparar una consulta técnica
+Zent · Preparar una consulta técnica
 1. Anota el modelo del equipo y la versión del sistema.
 2. Describe qué esperabas que ocurriera y qué viste en pantalla.
 3. Indica cuándo empezó el problema y qué cambió recientemente.

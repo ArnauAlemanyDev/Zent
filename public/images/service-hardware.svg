@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="190" y1="110" x2="610" y2="490">
+      <stop offset="0" stop-color="#4cd9f2"/><stop offset="1" stop-color="#a9b8ff"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="400" cy="300" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4cd9f2" stop-opacity=".20"/><stop offset=".55" stop-color="#a9b8ff" stop-opacity=".06"/><stop offset="1" stop-color="#4cd9f2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#a9b8ff" opacity=".28"/></pattern>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+    
+  </defs>
+  <rect width="800" height="600" fill="#0c111b"/>
+  <rect width="800" height="600" fill="url(#dots)"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g id="art" fill="none" stroke="url(#lg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="300" y="200" width="200" height="200" rx="16" stroke-width="2.4"/>
+<rect x="342" y="242" width="116" height="116" rx="9" opacity=".85"/>
+<rect x="326" y="226" width="148" height="148" rx="12" opacity=".35" stroke-width="1.2"/>
+<path fill="url(#lg)" stroke="none" transform="translate(365.9 273.8) scale(1.75)" d="M2 28 16 2h10L12 28zM18 28l9-17h10l-9 17z"/>
+<g transform="rotate(0 400 300)"><path d="M330 200 V178 L297.5 158 V122" stroke-width="1.8"/>
+<circle cx="297.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="297.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M358 200 V178 L338.5 158 V122" stroke-width="1.8"/>
+<circle cx="338.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="338.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M386 200 V178 L379.5 158 V122" stroke-width="1.8"/>
+<circle cx="379.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="379.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M414 200 V178 L420.5 158 V122" stroke-width="1.8"/>
+<circle cx="420.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="420.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M442 200 V178 L461.5 158 V122" stroke-width="1.8"/>
+<circle cx="461.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="461.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M470 200 V178 L502.5 158 V122" stroke-width="1.8"/>
+<circle cx="502.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="502.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/></g>
+<g transform="rotate(90 400 300)"><path d="M330 200 V178 L297.5 158 V122" stroke-width="1.8"/>
+<circle cx="297.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="297.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M358 200 V178 L338.5 158 V122" stroke-width="1.8"/>
+<circle cx="338.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="338.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M386 200 V178 L379.5 158 V122" stroke-width="1.8"/>
+<circle cx="379.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="379.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M414 200 V178 L420.5 158 V122" stroke-width="1.8"/>
+<circle cx="420.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="420.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M442 200 V178 L461.5 158 V122" stroke-width="1.8"/>
+<circle cx="461.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="461.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M470 200 V178 L502.5 158 V122" stroke-width="1.8"/>
+<circle cx="502.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="502.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/></g>
+<g transform="rotate(180 400 300)"><path d="M330 200 V178 L297.5 158 V122" stroke-width="1.8"/>
+<circle cx="297.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="297.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M358 200 V178 L338.5 158 V122" stroke-width="1.8"/>
+<circle cx="338.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="338.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M386 200 V178 L379.5 158 V122" stroke-width="1.8"/>
+<circle cx="379.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="379.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M414 200 V178 L420.5 158 V122" stroke-width="1.8"/>
+<circle cx="420.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="420.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M442 200 V178 L461.5 158 V122" stroke-width="1.8"/>
+<circle cx="461.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="461.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M470 200 V178 L502.5 158 V122" stroke-width="1.8"/>
+<circle cx="502.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="502.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/></g>
+<g transform="rotate(270 400 300)"><path d="M330 200 V178 L297.5 158 V122" stroke-width="1.8"/>
+<circle cx="297.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="297.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M358 200 V178 L338.5 158 V122" stroke-width="1.8"/>
+<circle cx="338.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="338.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M386 200 V178 L379.5 158 V122" stroke-width="1.8"/>
+<circle cx="379.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="379.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M414 200 V178 L420.5 158 V122" stroke-width="1.8"/>
+<circle cx="420.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="420.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M442 200 V178 L461.5 158 V122" stroke-width="1.8"/>
+<circle cx="461.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="461.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/>
+<path d="M470 200 V178 L502.5 158 V122" stroke-width="1.8"/>
+<circle cx="502.5" cy="122" r="4.5" fill="#0c111b" stroke-width="2"/><circle cx="502.5" cy="122" r="1.6" fill="url(#lg)" stroke="none"/></g>
+
+  </g>
+  <use href="#art" filter="url(#blur)" opacity=".55"/>
+  <use href="#art"/>
+</svg>

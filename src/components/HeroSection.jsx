@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Server, Shield, Wifi } from "lucide-react";
 export default function HeroSection() {
   return (
-    <section className="invox-hero relative flex items-center pt-28 pb-14">
+    <section className="brand-hero relative flex items-center pt-28 pb-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-[8vw] w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left */}

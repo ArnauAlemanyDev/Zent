@@ -6,7 +6,7 @@ const CONTACT_ITEMS = [
   { icon: MapPin, label: "Oficina ficticia", primary: "Calle del Prisma, 8", secondary: "Villa Prisma" },
   { icon: Phone, label: "Teléfono", primary: "+34 9XX XXX XXX" },
   { icon: MessageCircle, label: "Mensajería", primary: "+34 6XX XXX XXX" },
-  { icon: Mail, label: "Correo de ejemplo", primary: "hola@invox.example" },
+  { icon: Mail, label: "Correo de ejemplo", primary: "hola@zent.example" },
   { icon: Clock, label: "Horario de ejemplo", primary: "Lunes a viernes, de 9 a 17 h" },
 ];
 
@@ -83,9 +83,9 @@ export default function Contact() {
         <motion.figure initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.7 }}
           className="rounded-2xl overflow-hidden border border-border bg-surface-ice">
           <svg viewBox="0 0 800 230" className="w-full h-56" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
-            <defs><pattern id="streets" width="105" height="80" patternTransform="rotate(-18)" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="95" height="70" rx="6" fill="#dce2d3"/></pattern></defs>
+            <defs><pattern id="streets" width="105" height="80" patternTransform="rotate(-18)" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="95" height="70" rx="6" fill="#d9e2ec"/></pattern></defs>
             <rect width="800" height="230" fill="url(#streets)"/><path d="M-20 180 Q180 90 310 129 T820 55" fill="none" stroke="white" strokeWidth="21"/>
-            <path d="M400 121s-17-18-17-29a17 17 0 0 1 34 0c0 11-17 29-17 29" fill="#4d712d"/><circle cx="400" cy="92" r="6" fill="white"/>
+            <path d="M400 121s-17-18-17-29a17 17 0 0 1 34 0c0 11-17 29-17 29" fill="#0b6b86"/><circle cx="400" cy="92" r="6" fill="white"/>
           </svg>
           <figcaption className="px-5 py-3 text-sm text-muted-foreground">Plano ilustrativo · Calle del Prisma, 8</figcaption>
         </motion.figure>

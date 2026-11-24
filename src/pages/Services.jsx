@@ -17,7 +17,7 @@ const SERVICES_DETAIL = [
       "Auditoría de seguridad y análisis de vulnerabilidades",
       "Configuración de firewalls y seguridad perimetral",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-ciberseguridad.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-ciberseguridad.svg`,
 
   },
   {
@@ -33,7 +33,7 @@ const SERVICES_DETAIL = [
       "Backup y disaster recovery",
       "Monitorización y mantenimiento proactivo",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-cloud.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-cloud.svg`,
   },
   {
     icon: Wrench,
@@ -48,7 +48,7 @@ const SERVICES_DETAIL = [
       "Instalación y configuración de software",
       "Soporte técnico presencial en tu empresa",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-gestionados.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-gestionados.svg`,
   },
   {
     icon: ShoppingCart,
@@ -63,7 +63,7 @@ const SERVICES_DETAIL = [
       "TPV para talleres mecánicos",
       "Carta digital con QR",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-tpv.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-tpv.svg`,
   },
   {
     icon: Phone,
@@ -78,7 +78,7 @@ const SERVICES_DETAIL = [
       "Centralitas y telefonía IP para empresas",
       "Asesoramiento personalizado de tarifas",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-telecomunicaciones.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-telecomunicaciones.svg`,
   },
   {
     icon: Monitor,
@@ -93,7 +93,7 @@ const SERVICES_DETAIL = [
       "Equipamiento de red profesional",
       "Software CAD y licencias",
     ],
-    image: `${import.meta.env.BASE_URL}images/service-hardware.webp`,
+    image: `${import.meta.env.BASE_URL}images/service-hardware.svg`,
   },
 ];
 

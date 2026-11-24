@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="190" y1="110" x2="610" y2="490">
+      <stop offset="0" stop-color="#4cd9f2"/><stop offset="1" stop-color="#a9b8ff"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="400" cy="300" r="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4cd9f2" stop-opacity=".20"/><stop offset=".55" stop-color="#a9b8ff" stop-opacity=".06"/><stop offset="1" stop-color="#4cd9f2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#a9b8ff" opacity=".28"/></pattern>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+    
+  </defs>
+  <rect width="800" height="600" fill="#0c111b"/>
+  <rect width="800" height="600" fill="url(#dots)"/>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g id="art" fill="none" stroke="url(#lg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M377.0 194.5 L383.0 165.1 L417.0 165.1 L423.0 194.5 A108 108 0 0 1 432.8 197.1 L432.8 197.1 L452.8 174.7 L482.2 191.6 L472.7 220.1 A108 108 0 0 1 479.9 227.3 L479.9 227.3 L508.4 217.8 L525.3 247.2 L502.9 267.2 A108 108 0 0 1 505.5 277.0 L505.5 277.0 L534.9 283.0 L534.9 317.0 L505.5 323.0 A108 108 0 0 1 502.9 332.8 L502.9 332.8 L525.3 352.8 L508.4 382.2 L479.9 372.7 A108 108 0 0 1 472.7 379.9 L472.7 379.9 L482.2 408.4 L452.8 425.3 L432.8 402.9 A108 108 0 0 1 423.0 405.5 L423.0 405.5 L417.0 434.9 L383.0 434.9 L377.0 405.5 A108 108 0 0 1 367.2 402.9 L367.2 402.9 L347.2 425.3 L317.8 408.4 L327.3 379.9 A108 108 0 0 1 320.1 372.7 L320.1 372.7 L291.6 382.2 L274.7 352.8 L297.1 332.8 A108 108 0 0 1 294.5 323.0 L294.5 323.0 L265.1 317.0 L265.1 283.0 L294.5 277.0 A108 108 0 0 1 297.1 267.2 L297.1 267.2 L274.7 247.2 L291.6 217.8 L320.1 227.3 A108 108 0 0 1 327.3 220.1 L327.3 220.1 L317.8 191.6 L347.2 174.7 L367.2 197.1 A108 108 0 0 1 377.0 194.5 Z" stroke-width="2.4"/>
+<circle cx="400" cy="300" r="80" opacity=".9"/><circle cx="400" cy="300" r="56" opacity=".6"/><circle cx="400" cy="300" r="26" stroke-width="2.4"/>
+<path d="M422.5 313.0 L469.3 340.0" opacity=".5" stroke-width="1.4"/>
+<path d="M400.0 326.0 L400.0 380.0" opacity=".5" stroke-width="1.4"/>
+<path d="M377.5 313.0 L330.7 340.0" opacity=".5" stroke-width="1.4"/>
+<path d="M377.5 287.0 L330.7 260.0" opacity=".5" stroke-width="1.4"/>
+<path d="M400.0 274.0 L400.0 220.0" opacity=".5" stroke-width="1.4"/>
+<path d="M422.5 287.0 L469.3 260.0" opacity=".5" stroke-width="1.4"/>
+<circle cx="400" cy="300" r="186" stroke-dasharray="3 9" opacity=".55"/>
+<circle cx="400" cy="300" r="224" opacity=".18" stroke-width="1"/>
+<circle cx="238.9" cy="207.0" r="6" fill="#0c111b" stroke-width="2"/><circle cx="238.9" cy="207.0" r="3" fill="url(#lg)" stroke="none"/>
+<circle cx="561.1" cy="207.0" r="6" fill="#0c111b" stroke-width="2"/><circle cx="561.1" cy="207.0" r="3" fill="url(#lg)" stroke="none"/>
+<circle cx="367.7" cy="483.2" r="6" fill="#0c111b" stroke-width="2"/><circle cx="367.7" cy="483.2" r="3" fill="url(#lg)" stroke="none"/>
+<circle cx="583.5" cy="428.5" r="6" fill="#0c111b" stroke-width="2"/><circle cx="583.5" cy="428.5" r="3" fill="url(#lg)" stroke="none"/>
+<path d="M235.4 207.5 l2.8 2.8 l5 -6" stroke-width="2" stroke="#0c111b"/>
+  </g>
+  <use href="#art" filter="url(#blur)" opacity=".55"/>
+  <use href="#art"/>
+</svg>
