@@ -1,150 +1,150 @@
 <div align="center">
 
-**ES** · [EN](README.en.md)
+[ES](README.md) · **EN**
 
 <a href="https://arnaualemanydev.github.io/Zent/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
-    <img src="docs/banner-dark.svg" alt="Zent: equipos, redes y soporte. Web responsive de una consultora informática ficticia." width="100%">
+    <img src="docs/banner-dark.svg" alt="Zent: equipment, networks and support. Responsive website for a fictional IT consultancy." width="100%">
   </picture>
 </a>
 
 <br>
 
-[![Ver demo](https://img.shields.io/badge/%E2%86%97%20Visitar%20la%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Zent/)
-[![Catálogo](https://img.shields.io/badge/Cat%C3%A1logo%20de%20servicios-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Zent/servicios)
+[![Live demo](https://img.shields.io/badge/%E2%86%97%20Visit%20the%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Zent/)
+[![Service catalogue](https://img.shields.io/badge/Service%20catalogue-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Zent/servicios)
 
 </div>
 
 <br>
 
-## Qué es Zent
+## What is Zent
 
-Zent es la web de una consultora informática que no existe: instalación y mantenimiento de equipos, redes y soporte para hogares, oficinas y comercios. Reúne **seis áreas de servicio**, desde ciberseguridad hasta sistemas de punto de venta, en un sitio responsive con catálogo navegable, página de descargas y contacto.
+Zent is the website of an IT consultancy that does not exist: installation and maintenance of equipment, networks and support for homes, offices and shops. It brings together **six service areas**, from cybersecurity to point-of-sale systems, in a responsive site with a browsable catalogue, a downloads page and a contact page.
 
-El proyecto nació durante mis prácticas de DAM como web real de una empresa del sector. Para publicarlo como portfolio conservé la arquitectura y sustituí la identidad corporativa, los contactos, el plano de ubicación y las referencias comerciales por contenido de demostración. Todos los datos que verás en la demo son ficticios.
+The project started during my DAM work placement as a real website for a company in the sector. To publish it as a portfolio piece I kept the architecture and replaced the corporate identity, contact details, location map and commercial references with demo content. Everything you will see in the demo is fictional. The site itself is written in Spanish.
 
 <br>
 
-## Un recorrido por el catálogo
+## A tour of the catalogue
 
-Cada tarjeta lleva directamente a su sección en la demo.
+Each card links straight to its section in the demo.
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#ciberseguridad">Ciberseguridad</a></b><br>
-      Protección multidispositivo, auditoría y vulnerabilidades, firewalls y seguridad perimetral.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#ciberseguridad">Cybersecurity</a></b><br>
+      Multi-device protection, security audits and vulnerability analysis, firewalls and perimeter security.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#infraestructura-cloud">Cloud y redes</a></b><br>
-      Redes LAN/WAN, servidores físicos y virtuales, migración a la nube, backup y monitorización.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#infraestructura-cloud">Cloud and networks</a></b><br>
+      LAN/WAN networks, physical and virtual servers, cloud migration, backup and monitoring.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#servicios-gestionados">Servicios gestionados</a></b><br>
-      Asistencia remota, mantenimiento preventivo, reparación de hardware y soporte presencial.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#servicios-gestionados">Managed services</a></b><br>
+      Remote assistance, preventive maintenance, hardware repair and on-site support.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv">Sistemas TPV</a></b><br>
-      Punto de venta para hostelería, comercio, peluquería y talleres, con carta digital por QR.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv">Point-of-sale systems</a></b><br>
+      POS for hospitality, retail, hairdressers and workshops, with a QR digital menu.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#telecomunicaciones">Telecomunicaciones</a></b><br>
-      Fibra, telefonía móvil, packs convergentes y centralitas IP para empresas.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#telecomunicaciones">Telecommunications</a></b><br>
+      Fibre, mobile plans, bundled packs and IP phone systems for businesses.
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#equipos-hardware">Equipos y hardware</a></b><br>
-      Ordenadores, componentes, periféricos, equipamiento de red y software CAD.
+      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#equipos-hardware">Equipment and hardware</a></b><br>
+      Computers, components, peripherals, network equipment and CAD software.
     </td>
   </tr>
 </table>
 
-Además del catálogo, el sitio incluye **Descargas** (una guía de soporte propia y enlaces a herramientas de asistencia remota), **Contacto** con datos de ejemplo y las páginas legales de aviso legal, privacidad y cookies.
+Besides the catalogue, the site includes **Downloads** (an in-house support guide and links to remote assistance tools), a **Contact** page with sample data, and the legal pages for legal notice, privacy and cookies.
 
 <br>
 
-## Decisiones de desarrollo
+## Development decisions
 
-### Un catálogo que funciona con ratón, teclado y pantalla táctil
+### A catalogue that works with mouse, keyboard and touch
 
-Las seis tarjetas mantienen la misma altura y su resumen se abre de tres formas: al pasar el ratón, al activar **Ver detalles** con teclado o al tocarlo en una pantalla táctil. El botón expone su estado con `aria-expanded`, `Esc` cierra el panel y devuelve el foco al botón. **Ver servicio** lleva a la sección correspondiente y coloca allí el foco, también cuando se abre directamente una URL como [`/servicios#sistemas-tpv`](https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv).
+The six cards keep the same height and their summary opens in three ways: on mouse hover, by activating **Ver detalles** ("View details") with the keyboard, or by tapping it on a touch screen. The button exposes its state with `aria-expanded`, and `Esc` closes the panel and returns focus to the button. **Ver servicio** ("View service") takes you to the matching section and moves focus there, including when a URL such as [`/servicios#sistemas-tpv`](https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv) is opened directly.
 
-📄 Código: [`src/components/ServiceCard.jsx`](src/components/ServiceCard.jsx) y [`src/pages/Services.jsx`](src/pages/Services.jsx)
+📄 Code: [`src/components/ServiceCard.jsx`](src/components/ServiceCard.jsx) and [`src/pages/Services.jsx`](src/pages/Services.jsx)
 
-### Una primera carga ligera
+### A light first load
 
-La ilustración del hero es un SVG vectorial de unos 4 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), en lugar de una imagen rasterizada: se ve nítida en cualquier pantalla y apenas pesa. Sus líneas se mecen despacio con una animación CSS que se desactiva con `prefers-reduced-motion`. Inicio forma parte del módulo de entrada para que el titular aparezca desde el primer render, y el resto de páginas se carga bajo demanda.
+The hero illustration is a vector SVG of about 4 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), instead of a raster image: it stays sharp on any screen and weighs very little. Its lines sway slowly through a CSS animation that is switched off with `prefers-reduced-motion`. The home page is part of the entry module so the headline appears on the first render, and the remaining pages load on demand.
 
-📄 Código: [`src/App.jsx`](src/App.jsx) y [`src/components/HeroSection.jsx`](src/components/HeroSection.jsx)
+📄 Code: [`src/App.jsx`](src/App.jsx) and [`src/components/HeroSection.jsx`](src/components/HeroSection.jsx)
 
-### Una identidad visual coherente
+### A consistent visual identity
 
-Los colores viven como variables HSL en [`src/index.css`](src/index.css) y se conectan con Tailwind en [`tailwind.config.js`](tailwind.config.js). La cabecera, el hero y la llamada a la acción final usan la paleta inversa: fondo azul tinta `#0c111b`, texto claro `#eef2f7` y un cian eléctrico `#4cd9f2` reservado para lo que debe captar la atención. El resto de la web trabaja sobre superficies claras con un azul petróleo como color principal. Las seis ilustraciones de servicio y el logotipo son SVG que comparten el lenguaje de líneas del hero (`public/images/service-*.svg`). Los estilos respetan `prefers-reduced-motion` y el foco visible.
+Colours live as HSL variables in [`src/index.css`](src/index.css) and are wired into Tailwind in [`tailwind.config.js`](tailwind.config.js). The header, the hero and the closing call to action use the inverse palette: ink-blue background `#0c111b`, light text `#eef2f7` and an electric cyan `#4cd9f2` kept for whatever should catch the eye. The rest of the site works on light surfaces with a deep petrol blue as the main colour. The six service illustrations and the logo are SVGs that share the line language of the hero (`public/images/service-*.svg`). Styles respect `prefers-reduced-motion` and visible focus.
 
-### Rutas que sobreviven a la recarga
+### Routes that survive a reload
 
-Las rutas se resuelven en cliente con React Router. Como GitHub Pages sirve archivos estáticos, un script posterior a la compilación ([`scripts/pages-routes.mjs`](scripts/pages-routes.mjs)) copia `index.html` a cada ruta y a `404.html`, de modo que los accesos directos y las recargas funcionan. Para otros alojamientos se incluyen [`public/_redirects`](public/_redirects), [`public/.htaccess`](public/.htaccess) y [`vercel.json`](vercel.json).
+Routes are resolved on the client with React Router. Because GitHub Pages serves static files, a post-build script ([`scripts/pages-routes.mjs`](scripts/pages-routes.mjs)) copies `index.html` into every route and into `404.html`, so direct links and reloads work. For other hosts, [`public/_redirects`](public/_redirects), [`public/.htaccess`](public/.htaccess) and [`vercel.json`](vercel.json) are included.
 
 <br>
 
-## Mapa de la aplicación
+## Application map
 
 ```mermaid
 flowchart LR
-    A([Entrada: Inicio]) --> B[Hero]
-    A --> C[Servicios]
-    A --> D[Sobre nosotros]
-    A --> E[Por qué elegirnos]
-    A --> F[Áreas de especialización]
-    A --> G[Llamada a la acción]
+    A([Entry: Home]) --> B[Hero]
+    A --> C[Services]
+    A --> D[About us]
+    A --> E[Why choose us]
+    A --> F[Areas of expertise]
+    A --> G[Call to action]
 
-    A -.carga bajo demanda.-> H[/servicios/]
-    A -.carga bajo demanda.-> I[/descargas/]
-    A -.carga bajo demanda.-> J[/contacto/]
-    A -.carga bajo demanda.-> K[/legales/]
+    A -.loaded on demand.-> H[/servicios/]
+    A -.loaded on demand.-> I[/descargas/]
+    A -.loaded on demand.-> J[/contacto/]
+    A -.loaded on demand.-> K[/legal pages/]
 
-    C -- Ver servicio --> H
+    C -- View service --> H
     H --- L["#ciberseguridad · #infraestructura-cloud · #servicios-gestionados<br>#sistemas-tpv · #telecomunicaciones · #equipos-hardware"]
 ```
 
 <br>
 
-## Tecnologías
+## Technologies
 
-| Tecnología | Para qué se usa aquí |
+| Technology | What it is used for here |
 | --- | --- |
-| **React 18** y **React Router** | Interfaz por componentes, rutas del sitio y carga diferida de páginas interiores |
-| **Vite** | Servidor de desarrollo y compilación de producción bajo `/Zent/` |
-| **Tailwind CSS** | Estilos con variables de diseño para la paleta clara y la inversa |
-| **Framer Motion** | Animaciones de entrada y transiciones del indicador de navegación |
-| **Lucide** | Iconografía de servicios, navegación y descargas |
-| **GitHub Actions** | Publicación automática en GitHub Pages |
+| **React 18** and **React Router** | Component-based UI, site routes and lazy loading of inner pages |
+| **Vite** | Development server and production build under `/Zent/` |
+| **Tailwind CSS** | Styling with design variables for the light and inverse palettes |
+| **Framer Motion** | Entrance animations and the navigation indicator transition |
+| **Lucide** | Icons for services, navigation and downloads |
+| **GitHub Actions** | Automatic publishing to GitHub Pages |
 
 <br>
 
-## Estructura del repositorio
+## Repository structure
 
 ```text
 Zent/
 ├── src/
-│   ├── pages/          Vistas: Home, Services, Downloads, Contact y legales
-│   ├── components/     Layout, navegación, tarjetas y secciones de Inicio
-│   └── lib/            Título de página y vista 404
+│   ├── pages/          Views: Home, Services, Downloads, Contact and legal pages
+│   ├── components/     Layout, navigation, cards and Home sections
+│   └── lib/            Page title hook and 404 view
 ├── public/
-│   ├── images/         Logotipo, hero e ilustraciones de servicio en SVG
-│   └── guia-soporte.txt   Descarga local de la página Descargas
-├── scripts/            Resolución de rutas para GitHub Pages
-├── docs/               Banners de este README
-└── .github/workflows/  Publicación en GitHub Pages
+│   ├── images/         Logo, hero and service illustrations as SVG
+│   └── guia-soporte.txt   Local download on the Downloads page
+├── scripts/            Route handling for GitHub Pages
+├── docs/               Banners for this README
+└── .github/workflows/  Publishing to GitHub Pages
 ```
 
 <br>
 
 <div align="center">
 
-<sub>Proyecto de portfolio por <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent es una marca ficticia: los contactos, ubicaciones y referencias comerciales son de demostración.</sub>
+<sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent is a fictional brand: contact details, locations and commercial references are for demonstration only.</sub>
 
 </div>
