@@ -1,150 +1,149 @@
-<div align="center">
+<p align="right"><b>EN</b> · <a href="README.es.md">ES</a></p>
 
-[ES](README.md) · **EN**
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/header-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/header-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/header-en-dark.svg">
+  <img src="docs/readme/generated/header-en-light.svg" alt="Zent — Corporate website" width="100%">
+</picture>
 
-<a href="https://arnaualemanydev.github.io/Zent/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
-    <img src="docs/banner-dark.svg" alt="Zent: equipment, networks and support. Responsive website for a fictional IT consultancy." width="100%">
-  </picture>
-</a>
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-1-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-1-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-1-en-dark.svg">
+  <img src="docs/readme/generated/section-1-en-light.svg" alt="01 — Overview" width="100%">
+</picture>
+</h3>
 
-<br>
+Zent is a responsive corporate website for a fictional IT consultancy, covering equipment, networks and technical support for homes, offices and shops. The website is in Spanish.
 
-[![Live demo](https://img.shields.io/badge/%E2%86%97%20Visit%20the%20demo-4cd9f2?style=for-the-badge&labelColor=0c111b&color=4cd9f2)](https://arnaualemanydev.github.io/Zent/)
-[![Service catalogue](https://img.shields.io/badge/Service%20catalogue-0c111b?style=for-the-badge&labelColor=0c111b&color=222b3b)](https://arnaualemanydev.github.io/Zent/servicios)
+The project originated during my Multiplatform Application Development work placement. For this portfolio edition, I retained the original architecture and replaced the company's identity, contact details, location and commercial references with fictional content.
 
-</div>
+[Visit the live demo ↗](https://arnaualemanydev.github.io/Zent/) · [Explore the catalogue ↗](https://arnaualemanydev.github.io/Zent/servicios/)
 
-<br>
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-2-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-2-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-2-en-dark.svg">
+  <img src="docs/readme/generated/section-2-en-light.svg" alt="02 — Service catalogue" width="100%">
+</picture>
+</h3>
 
-## What is Zent
+Six service areas form the catalogue. Each link opens its corresponding section in the demo.
 
-Zent is the website of an IT consultancy that does not exist: installation and maintenance of equipment, networks and support for homes, offices and shops. It brings together **six service areas**, from cybersecurity to point-of-sale systems, in a responsive site with a browsable catalogue, a downloads page and a contact page.
+| Service | Scope |
+| --- | --- |
+| [Cybersecurity](https://arnaualemanydev.github.io/Zent/servicios/#ciberseguridad) | Protection, audits, vulnerability analysis and perimeter security |
+| [Cloud & networks](https://arnaualemanydev.github.io/Zent/servicios/#infraestructura-cloud) | Networks, servers, migration, backups and monitoring |
+| [Managed services](https://arnaualemanydev.github.io/Zent/servicios/#servicios-gestionados) | Remote assistance, maintenance, repairs and support |
+| [Point-of-sale systems](https://arnaualemanydev.github.io/Zent/servicios/#sistemas-tpv) | Retail and hospitality POS, QR digital menus |
+| [Telecommunications](https://arnaualemanydev.github.io/Zent/servicios/#telecomunicaciones) | Fibre, mobile services and IP telephony |
+| [Equipment & hardware](https://arnaualemanydev.github.io/Zent/servicios/#equipos-hardware) | Computers, peripherals, networking and CAD software |
 
-The project started during my DAM work placement as a real website for a company in the sector. To publish it as a portfolio piece I kept the architecture and replaced the corporate identity, contact details, location map and commercial references with demo content. Everything you will see in the demo is fictional. The site itself is written in Spanish.
+The site also includes a [downloads page](https://arnaualemanydev.github.io/Zent/descargas/) with a local support guide and vendor links, a [contact page](https://arnaualemanydev.github.io/Zent/contacto/) with fictional details, and legal notice, privacy and cookie pages.
 
-<br>
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-3-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-3-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-3-en-dark.svg">
+  <img src="docs/readme/generated/section-3-en-light.svg" alt="03 — Development decisions" width="100%">
+</picture>
+</h3>
 
-## A tour of the catalogue
+**01 / Accessible interactions**  
+Service cards expose their details through mouse hover, a keyboard-operable button and touch. They use `aria-expanded`, support Escape and link to catalogue sections. See [`ServiceCard.jsx`](src/components/ServiceCard.jsx).
 
-Each card links straight to its section in the demo.
+**02 / Lightweight presentation**  
+The hero uses a small vector illustration instead of a raster image. The home page is loaded with the entry module; secondary pages are loaded on demand. See [`HeroSection.jsx`](src/components/HeroSection.jsx) and [`App.jsx`](src/App.jsx).
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#ciberseguridad">Cybersecurity</a></b><br>
-      Multi-device protection, security audits and vulnerability analysis, firewalls and perimeter security.
-    </td>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#infraestructura-cloud">Cloud and networks</a></b><br>
-      LAN/WAN networks, physical and virtual servers, cloud migration, backup and monitoring.
-    </td>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#servicios-gestionados">Managed services</a></b><br>
-      Remote assistance, preventive maintenance, hardware repair and on-site support.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv">Point-of-sale systems</a></b><br>
-      POS for hospitality, retail, hairdressers and workshops, with a QR digital menu.
-    </td>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#telecomunicaciones">Telecommunications</a></b><br>
-      Fibre, mobile plans, bundled packs and IP phone systems for businesses.
-    </td>
-    <td width="33%" valign="top">
-      <b><a href="https://arnaualemanydev.github.io/Zent/servicios#equipos-hardware">Equipment and hardware</a></b><br>
-      Computers, components, peripherals, network equipment and CAD software.
-    </td>
-  </tr>
-</table>
+**03 / Consistent visual identity**  
+The ink-blue and cyan palette, reusable SVG illustrations and design variables form a cohesive interface. See [`index.css`](src/index.css) and [`tailwind.config.js`](tailwind.config.js).
 
-Besides the catalogue, the site includes **Downloads** (an in-house support guide and links to remote assistance tools), a **Contact** page with sample data, and the legal pages for legal notice, privacy and cookies.
+**04 / Static hosting with client-side routing**  
+React Router uses Vite's `/Zent/` base. A post-build script creates an `index.html` for each known route plus `404.html`, supporting direct navigation and reloads on GitHub Pages. See [`pages-routes.mjs`](scripts/pages-routes.mjs).
 
-<br>
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-4-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-4-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-4-en-dark.svg">
+  <img src="docs/readme/generated/section-4-en-light.svg" alt="04 — Technical stack" width="100%">
+</picture>
+</h3>
 
-## Development decisions
+| Technology | Role |
+| --- | --- |
+| React 18 · React Router 6 | Component-based UI, routing and lazy loading |
+| Vite 5 | Development server and production build |
+| Tailwind CSS 3 | Responsive styling and design tokens |
+| Framer Motion 11 | UI transitions and entrance animations |
+| Lucide React | Interface icons |
+| GitHub Actions · GitHub Pages | Build and deployment |
 
-### A catalogue that works with mouse, keyboard and touch
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-5-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-5-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-5-en-dark.svg">
+  <img src="docs/readme/generated/section-5-en-light.svg" alt="05 — Getting started" width="100%">
+</picture>
+</h3>
 
-The six cards keep the same height and their summary opens in three ways: on mouse hover, by activating **Ver detalles** ("View details") with the keyboard, or by tapping it on a touch screen. The button exposes its state with `aria-expanded`, and `Esc` closes the panel and returns focus to the button. **Ver servicio** ("View service") takes you to the matching section and moves focus there, including when a URL such as [`/servicios#sistemas-tpv`](https://arnaualemanydev.github.io/Zent/servicios#sistemas-tpv) is opened directly.
+The deployment workflow uses Node.js 22. Install Node.js 22 and Git to reproduce the project locally.
 
-📄 Code: [`src/components/ServiceCard.jsx`](src/components/ServiceCard.jsx) and [`src/pages/Services.jsx`](src/pages/Services.jsx)
-
-### A light first load
-
-The hero illustration is a vector SVG of about 4 kB, [`public/images/filamentos.svg`](public/images/filamentos.svg), instead of a raster image: it stays sharp on any screen and weighs very little. Its lines sway slowly through a CSS animation that is switched off with `prefers-reduced-motion`. The home page is part of the entry module so the headline appears on the first render, and the remaining pages load on demand.
-
-📄 Code: [`src/App.jsx`](src/App.jsx) and [`src/components/HeroSection.jsx`](src/components/HeroSection.jsx)
-
-### A consistent visual identity
-
-Colours live as HSL variables in [`src/index.css`](src/index.css) and are wired into Tailwind in [`tailwind.config.js`](tailwind.config.js). The header, the hero and the closing call to action use the inverse palette: ink-blue background `#0c111b`, light text `#eef2f7` and an electric cyan `#4cd9f2` kept for whatever should catch the eye. The rest of the site works on light surfaces with a deep petrol blue as the main colour. The six service illustrations and the logo are SVGs that share the line language of the hero (`public/images/service-*.svg`). Styles respect `prefers-reduced-motion` and visible focus.
-
-### Routes that survive a reload
-
-Routes are resolved on the client with React Router. Because GitHub Pages serves static files, a post-build script ([`scripts/pages-routes.mjs`](scripts/pages-routes.mjs)) copies `index.html` into every route and into `404.html`, so direct links and reloads work. For other hosts, [`public/_redirects`](public/_redirects), [`public/.htaccess`](public/.htaccess) and [`vercel.json`](vercel.json) are included.
-
-<br>
-
-## Application map
-
-```mermaid
-flowchart LR
-    A([Entry: Home]) --> B[Hero]
-    A --> C[Services]
-    A --> D[About us]
-    A --> E[Why choose us]
-    A --> F[Areas of expertise]
-    A --> G[Call to action]
-
-    A -.loaded on demand.-> H[/servicios/]
-    A -.loaded on demand.-> I[/descargas/]
-    A -.loaded on demand.-> J[/contacto/]
-    A -.loaded on demand.-> K[/legal pages/]
-
-    C -- View service --> H
-    H --- L["#ciberseguridad · #infraestructura-cloud · #servicios-gestionados<br>#sistemas-tpv · #telecomunicaciones · #equipos-hardware"]
+```bash
+git clone https://github.com/ArnauAlemanyDev/Zent.git
+cd Zent
+npm ci
+npm run dev
 ```
 
-<br>
+Open the local address displayed by Vite (normally `http://localhost:5173/Zent/`).
 
-## Technologies
+To build and preview the production version:
 
-| Technology | What it is used for here |
-| --- | --- |
-| **React 18** and **React Router** | Component-based UI, site routes and lazy loading of inner pages |
-| **Vite** | Development server and production build under `/Zent/` |
-| **Tailwind CSS** | Styling with design variables for the light and inverse palettes |
-| **Framer Motion** | Entrance animations and the navigation indicator transition |
-| **Lucide** | Icons for services, navigation and downloads |
-| **GitHub Actions** | Automatic publishing to GitHub Pages |
+```bash
+npm run build
+npm run preview
+```
 
-<br>
+The generated site is placed in `dist/`. The [Pages workflow](.github/workflows/pages.yml) publishes it on pushes to `main` and can also be triggered manually.
 
-## Repository structure
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-6-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-6-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-6-en-dark.svg">
+  <img src="docs/readme/generated/section-6-en-light.svg" alt="06 — Repository structure" width="100%">
+</picture>
+</h3>
 
 ```text
 Zent/
 ├── src/
-│   ├── pages/          Views: Home, Services, Downloads, Contact and legal pages
-│   ├── components/     Layout, navigation, cards and Home sections
+│   ├── components/     Layout, navigation and reusable UI
+│   ├── pages/          Home, catalogue, downloads, contact, legal
 │   └── lib/            Page title hook and 404 view
 ├── public/
-│   ├── images/         Logo, hero and service illustrations as SVG
-│   └── guia-soporte.txt   Local download on the Downloads page
-├── scripts/            Route handling for GitHub Pages
-├── docs/               Banners for this README
-└── .github/workflows/  Publishing to GitHub Pages
+│   ├── images/         Brand and service illustrations (SVG)
+│   └── guia-soporte.txt
+├── scripts/            Static route generation
+├── docs/readme/        README artwork and maintenance
+└── .github/workflows/  GitHub Pages deployment
 ```
 
-<br>
+<h3>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/section-7-en-dark-m.svg">
+  <source media="(max-width: 600px)" srcset="docs/readme/generated/section-7-en-light-m.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/section-7-en-dark.svg">
+  <img src="docs/readme/generated/section-7-en-light.svg" alt="07 — Related projects" width="100%">
+</picture>
+</h3>
 
-<div align="center">
+**Zent ERP** — A separate business management application in the Zent ecosystem. Repository not published yet.
 
-<sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent is a fictional brand: contact details, locations and commercial references are for demonstration only.</sub>
-
-</div>
+<sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent is a fictional brand; the contact and commercial information in the demo are illustrative.</sub>

@@ -1,0 +1,10 @@
+{
+  "title": "Zent",
+  "handle": "@arnaualemanydev / ZENT WEB",
+  "accent": { "dark": "#4CD9F2", "light": "#0B6B86" },
+  "markPath": "M2 28 16 2h10L12 28zM18 28l9-17h10l-9 17z",
+  "languages": {
+    "en": { "subtitle": "Corporate website", "sections": ["Overview", "Service catalogue", "Development decisions", "Technical stack", "Getting started", "Repository structure", "Related projects"] },
+    "es": { "subtitle": "Web corporativa", "sections": ["Descripción", "Catálogo de servicios", "Decisiones de desarrollo", "Tecnologías", "Puesta en marcha", "Estructura del repositorio", "Proyectos relacionados"] }
+  }
+}
