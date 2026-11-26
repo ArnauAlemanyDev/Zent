@@ -130,7 +130,7 @@ React Router utiliza la ruta base `/Zent-Web/` de Vite. Un script posterior a la
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/stack-es-dark-m.svg">
   <source media="(max-width: 600px)" srcset="docs/readme/generated/stack-es-light-m.svg">
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/stack-es-dark.svg">
-  <img src="docs/readme/generated/stack-es-light.svg" alt="React 18 · React Router 6: Interfaz por componentes, rutas y carga diferida; Vite 5: Servidor de desarrollo y compilación; Tailwind CSS 3: Estilos responsive y variables de diseño; Framer Motion 11: Transiciones y animaciones de entrada; Lucide React: Iconos de la interfaz; GitHub Actions · GitHub Pages: Compilación y despliegue" width="100%">
+  <img src="docs/readme/generated/stack-es-light.svg" alt="React 18 · React Router 7: Interfaz por componentes, rutas y carga diferida; Vite 8: Servidor de desarrollo y compilación; Tailwind CSS 3: Estilos responsive y variables de diseño; Framer Motion 11: Transiciones y animaciones de entrada; Lucide React: Iconos de la interfaz; GitHub Actions · GitHub Pages: Compilación y despliegue" width="100%">
 </picture>
 
 <h3>

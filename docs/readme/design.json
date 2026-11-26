@@ -48,12 +48,12 @@
       ],
       "stack": [
         {
-          "name": "React 18 · React Router 6",
+          "name": "React 18 · React Router 7",
           "role": "Component-based UI, routing and lazy loading",
           "icon": "react"
         },
         {
-          "name": "Vite 5",
+          "name": "Vite 8",
           "role": "Development server and production build",
           "icon": "vite"
         },
@@ -120,12 +120,12 @@
       ],
       "stack": [
         {
-          "name": "React 18 · React Router 6",
+          "name": "React 18 · React Router 7",
           "role": "Interfaz por componentes, rutas y carga diferida",
           "icon": "react"
         },
         {
-          "name": "Vite 5",
+          "name": "Vite 8",
           "role": "Servidor de desarrollo y compilación",
           "icon": "vite"
         },

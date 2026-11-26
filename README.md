@@ -130,7 +130,7 @@ React Router uses Vite's `/Zent-Web/` base. A post-build script creates an `inde
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="docs/readme/generated/stack-en-dark-m.svg">
   <source media="(max-width: 600px)" srcset="docs/readme/generated/stack-en-light-m.svg">
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/generated/stack-en-dark.svg">
-  <img src="docs/readme/generated/stack-en-light.svg" alt="React 18 · React Router 6: Component-based UI, routing and lazy loading; Vite 5: Development server and production build; Tailwind CSS 3: Responsive styling and design tokens; Framer Motion 11: UI transitions and entrance animations; Lucide React: Interface icons; GitHub Actions · GitHub Pages: Build and deployment" width="100%">
+  <img src="docs/readme/generated/stack-en-light.svg" alt="React 18 · React Router 7: Component-based UI, routing and lazy loading; Vite 8: Development server and production build; Tailwind CSS 3: Responsive styling and design tokens; Framer Motion 11: UI transitions and entrance animations; Lucide React: Interface icons; GitHub Actions · GitHub Pages: Build and deployment" width="100%">
 </picture>
 
 <h3>
