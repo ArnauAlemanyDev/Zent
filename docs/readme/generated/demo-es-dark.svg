@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="43" viewBox="0 0 640 43" fill="none" role="img" aria-labelledby="t">
+<title id="t">Ver demo</title>
+<style>.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<text x="0" y="20" class="s" font-size="17" font-weight="600" fill="#4CD9F2">Ver demo</text>
+<text x="0" y="36" class="m" font-size="11.5" font-weight="400" fill="#8B949E">Explorar la web</text>
+<text x="620" y="21" class="s" font-size="19" font-weight="400" fill="#4CD9F2">↗</text>
+</svg>

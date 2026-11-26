@@ -34,4 +34,66 @@ for (const [lang, copy] of Object.entries(cfg.languages)) {
     }
   }
 }
+
+
+// Editorial links and technical stack. Artwork remains local and text alternatives
+// in the READMEs describe the same content. No runtime network access.
+const wrap = (str, max) => {
+  const lines = []; let line = '';
+  for (const word of str.split(' ')) {
+    if (line && (line + ' ' + word).length > max) { lines.push(line); line = word; }
+    else line += (line ? ' ' : '') + word;
+  }
+  if (line) lines.push(line);
+  return lines;
+};
+const icon = async (name,x,y,color) => {
+  const raw = await readFile(new URL(`icons/${name}.svg`,base),'utf8');
+  const inner = raw.match(/<svg\b[^>]*>([\s\S]*?)<\/svg>/)[1];
+  const generic = ['vite','motion','lucide'].includes(name);
+  return `<g transform="translate(${x} ${y}) scale(.75)" ${generic ? `fill="none" stroke="${color}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"` : `fill="${color}"`}>${inner}</g>`;
+};
+for (const [lang,copy] of Object.entries(cfg.languages)) {
+  for (const [theme,c] of Object.entries(themes)) {
+    const accent = cfg.accent[theme];
+    for (const [suffix,w] of [['',640],['-m',360]]) {
+      const small = !!suffix;
+      const write = async (stem,h,title,body) => writeFile(new URL(`${stem}-${lang}-${theme}${suffix}.svg`,dir),svg(w,h,title,body));
+      await write('demo',43,copy.demo,[
+        text(0,20,copy.demo,17,accent,600),
+        text(0,36,copy.demoDetail,11.5,c.muted,400,true),
+        text(w-20,21,'↗',19,accent,400),
+      ]);
+      for (const [i,service] of copy.services.entries()) {
+        const lines=wrap(service.scope,small?43:80);
+        const h=35+lines.length*17+10;
+        await write(`service-${i+1}`,h,`${service.name} — ${service.scope}`,[
+          text(0,19,String(i+1).padStart(2,'0'),11,accent,400,true),
+          text(29,19,service.name,16,c.text,600),
+          text(w-16,19,'↗',15,c.muted),
+          ...lines.map((l,j)=>text(29,37+j*17,l,13,c.muted)),
+          rule(29,w,h-3,c.rule)
+        ]);
+      }
+      const cols=small?1:2, cw=small?w:300, step=small?0:340;
+      const body=[]; let y=4;
+      for(let i=0;i<copy.stack.length;i+=cols){
+        const group=copy.stack.slice(i,i+cols);
+        let rowHeight=0;
+        for(const [j,item] of group.entries()){
+          const x=j*step;
+          const lines=wrap(item.role,small?45:37);
+          body.push(await icon(item.icon,x,y+1,c.muted));
+          body.push(text(x+26,y+16,item.name,15,c.text,600));
+          body.push(...lines.map((l,k)=>text(x+26,y+35+k*17,l,12.5,c.muted)));
+          const h=43+lines.length*17;
+          rowHeight=Math.max(rowHeight,h);
+        }
+        y+=rowHeight;
+        if(i+cols<copy.stack.length){for(let j=0;j<cols;j++) body.push(rule(j*step,j*step+cw,y-9,c.rule));}
+      }
+      await write('stack',y-5,copy.sections[3],body);
+    }
+  }
+}
 console.log('README artwork generated.');

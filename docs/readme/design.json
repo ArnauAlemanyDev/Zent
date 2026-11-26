@@ -1,10 +1,155 @@
 {
   "title": "Zent",
   "handle": "@arnaualemanydev / ZENT WEB",
-  "accent": { "dark": "#4CD9F2", "light": "#0B6B86" },
+  "accent": {
+    "dark": "#4CD9F2",
+    "light": "#0B6B86"
+  },
   "markPath": "M2 28 16 2h10L12 28zM18 28l9-17h10l-9 17z",
   "languages": {
-    "en": { "subtitle": "Corporate website", "sections": ["Overview", "Service catalogue", "Development decisions", "Technical stack", "Getting started", "Repository structure", "Related projects"] },
-    "es": { "subtitle": "Web corporativa", "sections": ["Descripción", "Catálogo de servicios", "Decisiones de desarrollo", "Tecnologías", "Puesta en marcha", "Estructura del repositorio", "Proyectos relacionados"] }
+    "en": {
+      "subtitle": "Corporate website",
+      "sections": [
+        "Overview",
+        "Service catalogue",
+        "Development decisions",
+        "Technical stack",
+        "Getting started",
+        "Repository structure",
+        "Related projects"
+      ],
+      "demo": "Live demo",
+      "demoDetail": "Explore the website",
+      "services": [
+        {
+          "name": "Cybersecurity",
+          "scope": "Protection, audits, vulnerability analysis and perimeter security"
+        },
+        {
+          "name": "Cloud & networks",
+          "scope": "Networks, servers, migration, backups and monitoring"
+        },
+        {
+          "name": "Managed services",
+          "scope": "Remote assistance, maintenance, repairs and support"
+        },
+        {
+          "name": "Point-of-sale systems",
+          "scope": "Retail and hospitality POS, QR digital menus"
+        },
+        {
+          "name": "Telecommunications",
+          "scope": "Fibre, mobile services and IP telephony"
+        },
+        {
+          "name": "Equipment & hardware",
+          "scope": "Computers, peripherals, networking and CAD software"
+        }
+      ],
+      "stack": [
+        {
+          "name": "React 18 · React Router 6",
+          "role": "Component-based UI, routing and lazy loading",
+          "icon": "react"
+        },
+        {
+          "name": "Vite 5",
+          "role": "Development server and production build",
+          "icon": "vite"
+        },
+        {
+          "name": "Tailwind CSS 3",
+          "role": "Responsive styling and design tokens",
+          "icon": "tailwindcss"
+        },
+        {
+          "name": "Framer Motion 11",
+          "role": "UI transitions and entrance animations",
+          "icon": "motion"
+        },
+        {
+          "name": "Lucide React",
+          "role": "Interface icons",
+          "icon": "lucide"
+        },
+        {
+          "name": "GitHub Actions · GitHub Pages",
+          "role": "Build and deployment",
+          "icon": "githubactions"
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Web corporativa",
+      "sections": [
+        "Descripción",
+        "Catálogo de servicios",
+        "Decisiones de desarrollo",
+        "Tecnologías",
+        "Puesta en marcha",
+        "Estructura del repositorio",
+        "Proyectos relacionados"
+      ],
+      "demo": "Ver demo",
+      "demoDetail": "Explorar la web",
+      "services": [
+        {
+          "name": "Ciberseguridad",
+          "scope": "Protección, auditorías, análisis de vulnerabilidades y seguridad perimetral"
+        },
+        {
+          "name": "Cloud y redes",
+          "scope": "Redes, servidores, migración, copias de seguridad y monitorización"
+        },
+        {
+          "name": "Servicios gestionados",
+          "scope": "Asistencia remota, mantenimiento, reparación y soporte"
+        },
+        {
+          "name": "Sistemas TPV",
+          "scope": "TPV para comercio y hostelería, cartas digitales QR"
+        },
+        {
+          "name": "Telecomunicaciones",
+          "scope": "Fibra, telefonía móvil y telefonía IP"
+        },
+        {
+          "name": "Equipos y hardware",
+          "scope": "Ordenadores, periféricos, redes y software CAD"
+        }
+      ],
+      "stack": [
+        {
+          "name": "React 18 · React Router 6",
+          "role": "Interfaz por componentes, rutas y carga diferida",
+          "icon": "react"
+        },
+        {
+          "name": "Vite 5",
+          "role": "Servidor de desarrollo y compilación",
+          "icon": "vite"
+        },
+        {
+          "name": "Tailwind CSS 3",
+          "role": "Estilos responsive y variables de diseño",
+          "icon": "tailwindcss"
+        },
+        {
+          "name": "Framer Motion 11",
+          "role": "Transiciones y animaciones de entrada",
+          "icon": "motion"
+        },
+        {
+          "name": "Lucide React",
+          "role": "Iconos de la interfaz",
+          "icon": "lucide"
+        },
+        {
+          "name": "GitHub Actions · GitHub Pages",
+          "role": "Compilación y despliegue",
+          "icon": "githubactions"
+        }
+      ]
+    }
   }
 }
