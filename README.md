@@ -194,6 +194,6 @@ Zent-Web/
 </picture>
 </h3>
 
-**Zent ERP** — A separate business management application in the Zent ecosystem. Repository not published yet.
+**[Zent ERP](https://github.com/ArnauAlemanyDev/Zent-ERP)** — IT service management ERP with an integrated customer portal.
 
 <sub>Portfolio project by <a href="https://github.com/ArnauAlemanyDev">Arnau Alemany</a>. Zent is a fictional brand; the contact and commercial information in the demo are illustrative.</sub>
